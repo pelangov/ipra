@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="divFixedLeft"><span id="j_id0:j_id2">
+
+    <table cellpadding="0" cellspacing="0" class="tblMenuMain">
+        <tr>
+            <td style="vertical-align: middle; padding-top: 20px; height: 12%">
+                <pra-logo></pra-logo>
+            </td>
+        </tr>
+        <tr style="height: 10%; ">    
+            <td>
+                <div class="wrapper" id="element" style=" position: relative; "> Search Box</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top; text-align: left; font-size: 1em; padding: 0;margin-top: 10%;float: left;">
+                 </td>
+        </tr>      
+        <tr>
+            <td style="vertical-align: top; padding-bottom: 5px; text-align: center;float: left;">
+                <div class="pratextimg"></div>
+                <div class="welcome" style="visibility:true;">
+                    Welcome, <span id="userName"><a href="/_ui/core/chatter/ui/ChatterPage?tsid=02uL00000004S9s" target="_blank">Poongodi Elangovan</a></span>
+                </div>
+                <a class="logout" href="/secur/logout.jsp" id="logout" style="visibility:true;">Logout</a>
+
+            </td>
+        </tr>
+    </table>
+    </span>
+</div>
+</div>

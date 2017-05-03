@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Angular seed project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./css/base.css"  media="screen, handheld" />
+  <link rel="stylesheet" href="./css/wide.css" media="screen, handheld"/>
+  <link rel="stylesheet" href="./css/narrow.css" media="screen and (min-width: 1600px) and (max-width: 4100px)"/>
+  <link rel="stylesheet" href="./css/print.css" media="screen and (min-width: 400px) and (max-width: 1599px)"/>
+  <link rel="stylesheet" href="./css/glide-style.css" media="print"/>
+  <link href="/css/jquery-ui.css" media="screen, handheld" rel="stylesheet" /> 
+
+  <link href="images/touch-icon-iphone.png" rel="apple-touch-icon-precomposed" />
+	<link href="images/touch-icon-ipad.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+	<link href="images/touch-icon-iphone-retina.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+	<link href="images/touch-icon-ipad-retina.png" rel="apple-touch-icon-precomposed" sizes="144x144" /> 
+	<link href="images/favicon.ico" rel="shortcut icon" />
+ 
+  <script src="node_modules/typescript/lib/typescript.js"></script>
+  <script src="node_modules/core-js/client/shim.min.js"></script>
+  <script src="node_modules/zone.js/dist/zone.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <script src="systemjs.config.js"></script>
+  <script>
+    System.import('app').catch(function(err){ console.error(err); });
+  </script>
+</head>
+ 
+<body>
+<app>Loading...</app>
+</body>
+</html>
